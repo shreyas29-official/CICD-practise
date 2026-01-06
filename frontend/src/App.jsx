@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Navbar from "./Navbar";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           ))
         }
       </ul>
+      <Navbar/>
     </>
   )
 }
